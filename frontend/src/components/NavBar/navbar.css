@@ -1,0 +1,28 @@
+.navbar-section{
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-title{
+    margin: 0;
+    padding: 1rem;
+    font-family: var(--gala-font);
+}
+.navbar-links{
+    display: flex;
+    gap: var(--gap-lg);
+}
+.navbar-links a{
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    transition: color 0.2s ease;
+
+    &:hover{
+        background-color: #413840;
+    }
+}
