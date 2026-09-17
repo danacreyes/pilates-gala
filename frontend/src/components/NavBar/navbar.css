@@ -15,10 +15,10 @@
 }
 .navbar-links{
     display: flex;
-    gap: var(--gap-lg);
+    gap: var(--gap-sm);
 }
 .navbar-links a{
-    padding: 0.7rem 0.9rem;
+    padding: 0.7rem 1.8rem;
     border-radius: 10px;
     transition: color 0.2s ease;
 
