@@ -20,10 +20,13 @@ export const Home = () => {
             <div>
                 <img src={galaImg} alt="gala-img" className='gala-img'/>
             </div>
-            <div className="about-text">
-                
-            </div>
-
+            <section className="about-text">
+                <div className="about-card">
+                    <h3 className='about-title'>Gala Iturburu</h3>
+                    <h4 className='about-subtitle'>Profesora de pilates profesional</h4>
+                    <p className='about-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quos sequi blanditiis praesentium, perferendis numquam nam amet nulla sint ipsam quisquam quidem odio architecto? Veritatis consequatur non ullam mollitia consectetur.</p>
+                </div>
+            </section>
         </section>
         </>        
     )    

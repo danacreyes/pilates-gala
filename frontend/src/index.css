@@ -7,16 +7,17 @@
   /* COLOR PALET */
   --primary-color: #201b1f;
   --secondary-color: #655864;
-  --background-primary-color: #E5E1E5;
-  --background-secondary-color: #AFA0AE;
+  --subtitle-color: #606460;
+  --background-primary-color: #CEC6D6;
+  /* --background-secondary-color: #AFA0AE; */
   color: #eff1ef;
 
   /* FONTS SIZES */
   --font-h1: 2.5rem;
   --font-h2: 2rem;
   --font-h3: 1.5rem;
-  --font-h4: 1.25rem;
-  --font-text: 1.2rem;
+  --font-h4: 1.2rem;
+  --font-text: 1rem;
 
   /* GAP SIZES */
   --gap-sm: 1em;
@@ -35,12 +36,14 @@ h1 {
   letter-spacing: -1.68px;
   font-weight: 600;
   font-family: var(--primary-font);
+  margin: 0.5rem 0;
 }
 h2 {
   font-size: var(--font-h2);
   line-height: 118%;
   letter-spacing: -0.24px;
   font-family: var(--secondary-font);
+  margin: 0.5rem 0;
 }
 h3 {
   font-family: var(--primary-font);
@@ -48,11 +51,16 @@ h3 {
   line-height: 118%;
   letter-spacing: -0.2px;
   font-weight: 500;
+  margin: 0.5rem 0;
+}
+h4{
+  color: var(--subtitle-color); 
+  margin: 0.5rem 0;
 }
 p {
-  margin: 0;
+  margin: 0.5rem 0;
 }
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
